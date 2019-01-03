@@ -2,10 +2,10 @@
 banner = "images/devops-terraform-ansible-packer/terraform-ansible-packer.png"
 categories = ["terraform", "azure devops"]
 date = "2018-05-23T12:10:51+02:00"
-description = ""
-images = []
+description = "Building CI/CD for immutable infrastructure with Azure Devops and Terraform, Ansible, Packer"
+images = ["images/devops-terraform-ansible-packer/terraform-ansible-packer.png"]
 menu = ""
-tags = ["azure devops","terraform","ansible","packer","springboot"]
+tags = ["azure devops","terraform","ansible","packer","springboot", "azure vmss"]
 title = "Immutable infrastructure for Azure, using Azure Devops, Terraform, Packer and Ansible"
 +++
 

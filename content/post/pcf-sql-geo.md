@@ -2,8 +2,8 @@
 banner = "images/pcf-sql-geo/pcf-sql-geo.png"
 categories = ["pcf", "azure sql", "java"]
 date = "2018-08-13T11:58:06+02:00"
-description = "One of the best features about Azure is it's high avaliability, and this tutorial shows you how to take advantage of that with Spring Boot apps."
-images = []
+description = "This article shows hot to provide data high avaliability and  georeplication for  Spring Boot Java applications running on PCF and using Azure SQL"
+images = ["images/pcf-sql-geo/pcf-sql-geo.png"]
 menu = ""
 tags = ["azure sql","pcf","cloud foundry","springboot", "georeplication"]
 title = "Azure SQL with PCF Spring Boot Applications (Part 1 - GeoReplication)"

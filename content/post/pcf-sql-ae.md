@@ -2,8 +2,8 @@
 banner = "images/pcf-sql-ae/pcf-sql-ae.png"
 categories = ["pcf", "azure sql", "java"]
 date = "2018-11-16T11:58:06+02:00"
-description = "In this follow-up to a previous article, we look at how to secure your previously constructed Spring Boot application with Always Encrypted."
-images = []
+description = "This article demonstrates how to secure Java Spring Boot application data with Azure SQL Always Encrypted running on PCF"
+images = ["images/pcf-sql-ae/pcf-sql-ae.png"]
 menu = ""
 tags = ["azure sql","pcf","cloud foundry","springboot", "alwaysencrypted"]
 title = "Azure SQL with PCF Spring Boot Applications (Part 2 - AlwaysEncrypted)"

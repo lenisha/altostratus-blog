@@ -2,7 +2,7 @@
 banner = ""
 categories = ["terraform", "azure devops"]
 date = "2018-05-22T11:58:06+02:00"
-description = ""
+description = "Building you own Azure Devops(VSTS) agent with Terrfaorm/Ansible/Packer tools and running it on Azure ACI"
 images = []
 menu = ""
 tags = ["azure devops","terraform","ansible","aci", "docker"]

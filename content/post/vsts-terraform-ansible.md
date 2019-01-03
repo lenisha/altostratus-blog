@@ -2,10 +2,10 @@
 banner = "images/devops-terraform-ansible/terraform-ansible.png"
 categories = ["terraform", "azure devops"]
 date = "2018-05-22T12:10:51+02:00"
-description = ""
-images = []
+description = "Building CI/CD for SpringBooot Application with Azure Devops and Ansible, Terraform"
+images = ["images/devops-terraform-ansible/terraform-ansible.png"]
 menu = ""
-tags = ["azure devops","terraform","ansible", "springboot"]
+tags = ["azure devops","terraform","ansible", "springboot", "azure vmss"]
 title = "CI/CD for Azure using Terraform, Ansible and Azure Devops"
 +++
 

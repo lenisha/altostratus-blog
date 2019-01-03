@@ -2,10 +2,10 @@
 banner = "images/terra-custom/terraform-custom.png"
 categories = ["terraform"]
 date = "2018-11-14T12:10:51+02:00"
-description = ""
-images = []
+description = "How to use custom provisioning scripts in Terraform to enable features that are not yet supported by provider."
+images = ["images/terra-custom/terraform-custom.png"]
 menu = ""
-tags = ["terraform","tips and tricks"]
+tags = ["terraform"]
 title = "Terraform for custom tasks - invoking anc capturing shell scripts"
 +++
 

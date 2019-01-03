@@ -2,8 +2,8 @@
 banner = "images/devops-terraform-gatsby/terraform-gatsby.png"
 categories = ["terraform", "azure devops", "reactjs"]
 date = "2018-11-16T12:10:51+02:00"
-description = ""
-images = []
+description = "Build a blog (or any other static content) using a very popular JAMstack (GatsbyJS, GraphQL, Markdown) and host it on Azure Static website hosting for Azure Storage. Optimize using Azure CDN and implement CI/CD with Azure Devops Pipelines."
+images = ["images/devops-terraform-gatsby/terraform-gatsby.png"]
 menu = ""
 tags = ["azure devops","terraform","ansible","gatsby","reactjs","docker"]
 title = "Terraforming your JAMstack on Azure with Gatsby, Azure Pipelines, and Git"

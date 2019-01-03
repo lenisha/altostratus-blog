@@ -2,8 +2,8 @@
 banner = "images/appsrv-msi/appsrvc-msi.png"
 categories = ["azure appservice", "java"]
 date = "2018-11-08T11:58:06+02:00"
-description = "This tutorial demonstrates lift and shift in the cloud by migrating a Java legacy application and removing credentials from the code."
-images = []
+description = "This tutorial demonstrates lift and shift Java  Spring legacy application migration to Azure App Service and removing credentials from the code using Azure Managed Service Identity"
+images = ["images/appsrv-msi/appsrvc-msi.png"]
 menu = ""
 tags = ["azure appservice","msi","java","spring", "datasource", "managed service identity"]
 title = "Migrating Java Applications to Azure App Service (Part 1 - DataSources and Credentials)"
