@@ -1,12 +1,12 @@
 +++
-banner = ""
+banner = "images/devops-agent/devops-agent.png"
 categories = ["terraform", "azure devops"]
 date = "2018-05-22T11:58:06+02:00"
-description = "Building you own Azure Devops(VSTS) agent with Terrfaorm/Ansible/Packer tools and running it on Azure ACI"
-images = []
+description = "Building you own Azure Devops(VSTS) agent with Terrfaorm/Ansible/Packer tools and running it on Azure Container Instances"
+images = ["images/devops-agent/devops-agent.png"]
 menu = ""
 tags = ["azure devops","terraform","ansible","aci", "docker"]
-title = "How to create a custom Azure Devops agent on Azure ACI with Terraform"
+title = "How to create a custom Azure Devops agent on Azure Container Instances with Terraform"
 +++
 
 Open source tools, like [Terraform][1] and [Ansible](https://www.ansible.com/), can be leveraged to implement [“infrastructure as code”](https://docs.microsoft.com/en-us/azure/devops/what-is-infrastructure-as-code) making it easier to continuously build and deploy cloud infrastructure across your applications.
