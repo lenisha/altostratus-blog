@@ -28,3 +28,13 @@ a.current {
 a.current:hover {
     color: #898d92;  
 }
+
+
+#profile .inner .base-info #avatar {
+    display: block;
+    margin: 10px auto 20px;
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    border: 1px solid #49c8fb;
+}
