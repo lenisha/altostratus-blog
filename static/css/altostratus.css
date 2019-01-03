@@ -1,5 +1,5 @@
 .article-title {
- color: rgb(71, 136, 242)
+ color: #49c8fb;
 }
 
 .tagcloud a {
@@ -15,8 +15,16 @@
     color: #898d92;
 }
 .tagcloud a:hover,.tagcloud .tagcloud:hover,.tagcloud a:active,.tagcloud .tagcloud:active {
-    color:#337ab7;
-    border-color:#337ab7;
+    color:#49c8fb;
+    border-color:#49c8fb;
     text-decoration:none;
 }
-
+a.current {
+    color:#fff;
+    background-color:#49c8fb;  
+    border-color:#49c8fb;
+    text-decoration:none;
+}
+a.current:hover {
+    color: #898d92;  
+}
