@@ -47,7 +47,7 @@ jobs:
             az storage blob delete-batch --account-name 'altostratus' --source '$web'
             az storage blob upload-batch --account-name 'altostratus' --destination '$web' --source '${{ env.WORKING_DIRECTORY }}/public' --content-cache-control "public, max-age=43200"
   health-check:
-    if: success(  build-and-deploy )
+    if: success()
     runs-on: ubuntu-latest
     steps:
     - name: Check the deployed service URL
