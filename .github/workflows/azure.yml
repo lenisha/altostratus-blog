@@ -19,12 +19,13 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        shell: pwsh
+        shell: bash
         working-directory: ${{ env.WORKING_DIRECTORY }}
 
     steps:
       - uses: actions/checkout@v2
-
+        with:
+         submodules: 'true'
       - name: Setup hugo
         uses: peaceiris/actions-hugo@v2
         with:
