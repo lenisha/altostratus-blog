@@ -2,13 +2,13 @@ baseurl = "http://blog.cloudbits.ca/"
 languageCode = "en-us"
 title = "CloudBits - High in the Sky"
 # Enable comments by entering your Disqus shortname
-disqusShortname = "altostratus"
+#disqusShortname = "altostratus"
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = "UA-131453936-1"
 # Define the number of posts per page
 paginate = 10
 footnotereturnlinkcontents = "↩"
-theme = "hugo-icarus"
+theme = "hugo-icarus" 
 
 
 [permalinks]
