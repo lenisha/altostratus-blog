@@ -106,3 +106,8 @@ theme = "hugo-icarus-theme"
     categories = true
     tags = true
   
+[module]
+
+  [[module.imports]]
+    path = "https://gitlab.com/toryanderson/hugo-icarus"
+    disable=false
