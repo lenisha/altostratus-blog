@@ -4,7 +4,7 @@ categories = ["azure appservice", "java", "azure monitor", "app insights"]
 date = "2019-07-28T11:58:06+02:00"
 description = "This tutorial demonstrates lift and shift Java  Spring legacy application migration to Azure App Service and enabling Azure native Monitoring and Logging"
 images = ["images/appsrv-logging/appsrvc-logging.png"]
-menu = "main"
+menu = ""
 tags = ["azure appservice","java","spring", "azure monitor", "app insights"]
 title = "Migrating Spring Java Applications to Azure App Service (Part 2 — Logging and Monitoring)"
 +++
