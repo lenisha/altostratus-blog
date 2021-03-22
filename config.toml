@@ -109,5 +109,5 @@ theme = "hugo-icarus-theme"
 [module]
 
   [[module.imports]]
-    path = "https://gitlab.com/toryanderson/hugo-icarus"
+    path = "github.com/digitalcraftsman/hugo-icarus-theme"
     disable=false
