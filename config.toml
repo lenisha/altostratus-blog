@@ -8,7 +8,7 @@ googleAnalytics = "UA-131453936-1"
 # Define the number of posts per page
 paginate = 10
 footnotereturnlinkcontents = "↩"
-theme = "hugo-icarus-theme"
+theme = "hugo-icarus"
 
 
 [permalinks]
@@ -106,8 +106,3 @@ theme = "hugo-icarus-theme"
     categories = true
     tags = true
   
-[module]
-
-  [[module.imports]]
-    path = "github.com/digitalcraftsman/hugo-icarus-theme"
-    disable=false

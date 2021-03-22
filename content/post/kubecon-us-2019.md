@@ -1,12 +1,12 @@
 +++
-banner = "images/kubecon/kubecon.jpeg"
+banner = "images/kubecon/Kubecon.jpeg"
 categories = ["Kubernetes", "Cloud Native"]
 date = "2019-12-02T11:58:06+02:00"
-description = "This article is a resport from KubeCon US 2019"
-images = ["images/kubecon/kubecon.jpeg"]
+description = "This article summarizes my key takeaways and learnings from KubeCon US 2019. Cloud Native trends and topics that are important for cloud developer"
+images = ["images/kubecon/Kubecon.jpeg"]
 menu = ""
 tags = ["KubeCon","Kubernetes","Cloud Native"]
-title = "KubeCon 2019 Recap— One Developer Journey and Takeaways"
+title = "KubeCon 2019 Recap — One Developer Journey and Takeaways"
 +++
 
 This post summarizes my key takeaways and learnings from KubeCon US 2019 - flagship Cloud Native Conference.
