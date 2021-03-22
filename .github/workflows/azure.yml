@@ -3,11 +3,11 @@ name: Build and Release Hugo Site
 on:
   push:
     branches:
-      - main
+      - master
   pull_request:
     types: [opened, synchronize, reopened, closed]
     branches:
-      - main
+      - master
 
 env:
   BASE_URL: http://blog.cloudbits.ca
