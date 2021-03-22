@@ -46,7 +46,12 @@ jobs:
           inlineScript: |
             az storage blob delete-batch --account-name 'altostratus' --source '$web'
             az storage blob upload-batch --account-name 'altostratus' --destination '$web' --source '${{ env.WORKING_DIRECTORY }}/public' --content-cache-control "public, max-age=43200"
-            az cdn endpoint purge -g altostratus -n cloudbits --profile-name Cloudbits --no-wait --content-paths '/**' 
+      - name: Purge CDN
+        uses: azure/CLI@v1
+        with:
+          azcliversion: 2.0.72
+          inlineScript: |       
+            az cdn endpoint purge -g altostratus -n cloudbits --profile-name Cloudbits --no-wait --content-paths '/*' 
   health-check:
     if: success()
     needs: build-and-deploy
